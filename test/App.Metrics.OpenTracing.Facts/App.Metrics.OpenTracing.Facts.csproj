@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>$(StandardTest)</TargetFrameworks>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.Metrics.FactsCommon\App.Metrics.FactsCommon.csproj" />
+  </ItemGroup>
+
+</Project>
